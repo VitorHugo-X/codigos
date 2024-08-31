@@ -16,12 +16,97 @@ footer{
 
 .bold{
    font-weight:bold;
+   color: green;
 
 }
 
 *{padding: 0;margin: 0;box-sizing: border-box; font-family: helvetica;}
 
+#img-1{
+    background-image: url('../IMG/Tênis 1.webp') ;
+}
+
+#img-2{
+    background-image: url('../IMG/Tênis 2.webp') ;
+}
+
+#img-3{
+    background-image: url('../IMG/Tênis 3.jpg') ;
+}
+
+#img-4{
+    background-image: url('../IMG/Tênis 4.png') ;
+}
+
+#img-5{
+    background-image: url('../IMG/Tênis 5.jpg') ;
+}
+
+#img-6{
+    background-image: url('../IMG/Tênis 6.webp') ;
+}
 
 
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;/*Afastar a imagem do conteúdo*/
+    background-position: center;
+    background-size: cover;/*mostra a área max de img que temos*/
+}
 
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    margin-bottom: 10px;
 
+}
+
+.container{
+    background-color: #ffffff;
+    min-height: 60vh;
+    padding: 50px;
+
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+h3{
+    margin-bottom: 10px;
+    color: rgb(143, 0, 29);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(143, 0, 29);
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 2s;
+
+}
+
+.btn:hover{
+    background-color: rgb(172, 92, 92);
+
+}
+
+.bol{
+    font-weight:bold;
+
+}
