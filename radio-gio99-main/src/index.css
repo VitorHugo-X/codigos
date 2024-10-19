@@ -59,7 +59,7 @@ header {
 
 .imgBM1 {
 
-    width: 10%;
+    width: 100%;
     border-radius: 25%;
 
 }
@@ -98,6 +98,29 @@ header {
     color: white;
     
 }
+
+.AMP {
+
+padding: 8rem;
+
+}
+
+.Musics {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.BM {
+
+    width: 18%;
+    margin-top: 2rem;
+
+    
+    }
+    
 
 
 

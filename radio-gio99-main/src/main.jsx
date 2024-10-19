@@ -10,7 +10,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
     <HeroSection/>
-    <BoxMusic/>
     <MaisPedidas/>
   </StrictMode>,
 )

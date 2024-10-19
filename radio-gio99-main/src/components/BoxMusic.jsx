@@ -1,16 +1,16 @@
-import Eugostoassim from "../assets/Eugostoassim.jpg"
 
 
-function BoxMusic() {
+
+function BoxMusic({cover, name, music, link}) {
 
     return (
 
-        <div>
-            <img className="imgBM1" src={ Eugostoassim } />
-            <p className="nameC" > Gustavo Mioto</p>
-            <p className="nameM" >Gustavo Mioto, Mari Fernandez - Eu Gosto Assim</p>
+        <div className="BM"> 
+            <img className="imgBM1" src={cover} />
+            <p className="nameC" >{name}</p>
+            <p className="nameM" >{music}</p>
             
-            <a className="YT1" href="https://www.youtube.com/watch?v=af8fdbaB8JY" target="_blank">Ouça Aqui</a>
+            <a className="YT1" href={link} target="_blank">Ouça Aqui</a>
            
         </div>
 
